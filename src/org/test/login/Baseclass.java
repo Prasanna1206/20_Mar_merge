@@ -2,7 +2,13 @@ package org.test.login;
 
 public class Baseclass {
 	public static void main(String[] args) {
-		System.out.println("base class");
+		int a=10;
+		if(a%2==0)
+		{
+		System.out.println("even number");
 	}
-
+		else {
+			System.out.println("odd number");
+		}
+}
 }
